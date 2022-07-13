@@ -1,0 +1,104 @@
+.list-items{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: start;
+    list-style: none;
+    padding: 5px;
+    margin: 10px;
+    border-bottom: 1px solid gray;
+}
+.member-detail{
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+width: 10%;
+}
+
+.member{
+  font-size: 14px;
+}
+
+.logo-img{
+    height: 40px;
+    width: 40px;
+}
+.delete-container {
+    display: flex;
+    width: 10%;
+  }
+  
+  .delete-button {
+    background: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .delete-img {
+    background: transparent;
+    width: 20px;
+    height: 20px;
+    align-self: center;
+    border: none;
+    outline: none;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .delete-img {
+      margin-right: 24px;
+    }
+  }
+  
+
+  .bgclassname {
+    border-bottom: 2px solid #2563eb;
+    color: #eb7725;
+  }
+ 
+
+ 
+  .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+  }
+
+  .modal-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+  
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 230px;
+    align-items:center;
+    justify-content: space-between;
+
+  }
+
+  .input-container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+  }
+
+  .input{ 
+    min-width: 30%;
+    width: 80%;
+  
+  }
